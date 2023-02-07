@@ -730,5 +730,179 @@ nav {
     margin-top: 50%;
 }
 
+/*ADAPTACION*/
+    /*MOBILE L*/
+@media (max-width: 425px) {
+    
+    nav {
+        padding: 5% 10%;
+    }
+    .titulo {
+        font-size: 15px;
+    }
+    .nav_links {
+        display: block;
+    }
+    .footer {
+        height: 50px;
+    }
+            /*INDEX*/
+    .contenedor_tiendas {
+        grid-gap: 10%;
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+        padding: 10% 20%;
+        padding-bottom: 100px;
+        padding-top: 150px;
+    }
+            /*REDES*/
+    .contenedor_redes {
+        width: 100%;
+        display: grid;
+        grid-gap: 5%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 140px);
+        padding-top: 140px;
+    }
+    .zoom_redes:hover > .fb .capafb h3 {
+        margin-top: 20%;
+    }
+    .zoom_redes:hover > .ig .capafb h3 {
+        margin-top: 20%;
+    }
+    .zoom_redes:hover > .yt .capafb h3 {
+        margin-top: 20%;
+    }
+            /*TIENDA PC*/
+    .juegos_pc {
+        min-height: 0px;
+        width: 100%;
+        display: grid;
+        grid-gap: 15px;
+        margin: 1,5rem;
+        grid-template-columns: repeat(4, 85px);
+        grid-template-rows: repeat(3, 100px);
+        padding-bottom: 0px;
+    }
+    .capa h3 {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-family: Masque;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    
+    }
+    .capa p {
+        position: relative;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    .zoom:hover > .capa h3 {
+        margin-top: 100%;
+    }
 
+    .capa2 h3 {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-family: Masque;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    
+    }
+    .capa2 p {
+        position: relative;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    .zoom:hover > .capa2 h3 {
+        margin-top: 40%;
+    }
 
+    .capa3 h3 {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        font-family: Masque;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    
+    }
+    .capa3 p {
+        position: relative;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: all 500ms ease-out;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    .zoom:hover > .capa3 h3 {
+        margin-top: 50%;
+    }
+            /*TIENDA PLAY*/
+     .juegos_play {
+        min-height: 0px;
+        width: 100%;
+        display: grid;
+        grid-gap: 15px;
+        margin: 1,5rem;
+        grid-template-columns: repeat(4, 85px);
+        grid-template-rows: repeat(3, 100px);
+        padding-bottom: 0px;
+    }
+}
+    /*MOBILE M*/
+ @media (max-width: 375px) {
+    
+    nav {
+        padding: 5% 10%;
+    }
+    .titulo {
+        font-size: 15px;
+    }
+    .nav_links {
+        display: block;
+        margin-right: 0; 
+    }
+    .link a {
+        font-size: 12px;
+    }
+        /*REDES*/
+    .contenedor_redes {
+        padding-top: 120px;
+    }
+
+        /*TIENDA PC*/
+    .juegos_pc {
+        grid-template-columns: repeat(4, 73px);
+    }
+
+         /*TIENDA PLAY*/
+     .juegos_play {
+        grid-template-columns: repeat(4, 73px);
+    }
+ }
+
+    /*MOBILE S*/
+ @media (max-width: 320px) {
+        /*TIENDA PC*/
+    .juegos_pc {
+        grid-template-columns: repeat(4, 60px);
+    }
+        /*TIENDA PLAY*/
+    .juegos_play {
+        grid-template-columns: repeat(4, 60px);
+    }
+ }
