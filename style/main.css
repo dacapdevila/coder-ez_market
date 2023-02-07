@@ -731,6 +731,27 @@ nav {
 }
 
 /*ADAPTACION*/
+    /*<TABLET*/
+@media screen and (max-width:767px) {
+    .nav_links {
+        display: block;
+    }
+    nav {
+        padding: 2% 10%;
+    }
+    /*INDEX*/
+    .contenedor_tiendas {
+        grid-gap: 10%;
+        grid-template-columns: repeat(1, 200px);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+        padding: 10% 20%;
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
+}
+    
     /*MOBILE L*/
 @media (max-width: 425px) {
     
