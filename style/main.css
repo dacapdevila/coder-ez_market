@@ -9,7 +9,7 @@
 /*FUENTES*/
 @font-face {
     font-family: "Masque";
-    src: local(fuentes/"MASQUE_.ttf");
+    src: url(../fuentes/MASQUE__.ttf);
 }
 
 /*BODY*/
