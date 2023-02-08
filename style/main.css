@@ -792,6 +792,10 @@ label.form_label {
         padding-bottom: 120px;
         padding-top: 120px;
     }
+    /*CONTACTO*/
+    .contenedor_formulario {
+         margin-top: 20%;
+    }
 }
 
     /*550PX*/
@@ -809,6 +813,11 @@ label.form_label {
     }
     .zoom_redes:hover > .yt .capafb h3 {
         margin-top: 10%;
+    }
+
+        /*CONTACTO*/
+    .contenedor_formulario {
+        margin-top: 30%;
     }
 }
 
@@ -836,6 +845,10 @@ label.form_label {
     }
     .footer {
         height: 50px;
+    }
+            /*CONTACTO*/
+    .contenedor_formulario {
+        margin-top: 35%;
     }
             /*INDEX*/
     .contenedor_tiendas {
@@ -970,6 +983,11 @@ label.form_label {
     .link a {
         font-size: 12px;
     }
+    
+        /*CONTACTO*/
+    .contenedor_formulario {
+        margin-top: 45%;
+    }
         /*REDES*/
     .contenedor_redes {
         padding-top: 120px;
@@ -988,6 +1006,11 @@ label.form_label {
 
     /*MOBILE S*/
  @media (max-width: 320px) {
+    
+        /*CONTACTO*/
+    .contenedor_formulario {
+        margin-top: 55%;
+    }
         /*TIENDA PC*/
     .juegos_pc {
         grid-template-columns: repeat(4, 60px);
