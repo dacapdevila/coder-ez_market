@@ -23,6 +23,29 @@ body {
 }
 
 /*HEADER*/
+
+/*EDIT BOOTS*/
+.h1, h1 {
+    font-size: 23px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+dl, ol, ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+/*---------------------------*/
+
 nav {
     height: 100px;
     display: flex;
@@ -730,6 +753,25 @@ nav {
     margin-top: 50%;
 }
 
+/*PAGINA DE CONTACTO*/
+.contenedor_formulario {
+    position: absolute;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px #ffffff;
+    padding: 2%;
+
+}
+
+label.form_label {
+    color: #013c79;
+    font-weight: bold;
+}
+
+
 /*ADAPTACION*/
     /*<TABLET*/
 @media screen and (max-width:767px) {
@@ -749,6 +791,34 @@ nav {
         padding: 10% 20%;
         padding-bottom: 120px;
         padding-top: 120px;
+    }
+}
+
+    /*550PX*/
+@media (max-width:550px) {
+    .contenedor_redes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 110px);
+        padding-top: 110px;
+    }
+    .zoom_redes:hover > .fb .capafb h3 {
+        margin-top: 10%;
+    }
+    .zoom_redes:hover > .ig .capafb h3 {
+        margin-top: 10%;
+    }
+    .zoom_redes:hover > .yt .capafb h3 {
+        margin-top: 10%;
+    }
+}
+
+    /*510PX*/
+@media (max-width:510px) {
+    .juegos_pc {
+        grid-template-columns: repeat(4, 95px);
+    }
+    .juegos_play {
+        grid-template-columns: repeat(4, 95px);  
     }
 }
     
@@ -927,3 +997,5 @@ nav {
         grid-template-columns: repeat(4, 60px);
     }
  }
+
+
