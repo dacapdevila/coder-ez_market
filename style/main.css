@@ -756,10 +756,10 @@ nav {
 /*PAGINA DE CONTACTO*/
 .contenedor_formulario {
     position: absolute;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    margin-left: 30%;
-    margin-right: 30%;
+    top: 25%;
+    bottom: 25%;
+    left: 10%;
+    right: 10%;
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 0 0 30px #ffffff;
     padding: 2%;
@@ -767,7 +767,7 @@ nav {
 }
 
 label.form_label {
-    color: #013c79;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -793,9 +793,9 @@ label.form_label {
         padding-top: 120px;
     }
     /*CONTACTO*/
-    .contenedor_formulario {
+    /*.contenedor_formulario {
          margin-top: 20%;
-    }
+    }*/
 }
 
     /*550PX*/
@@ -816,9 +816,9 @@ label.form_label {
     }
 
         /*CONTACTO*/
-    .contenedor_formulario {
+    /*.contenedor_formulario {
         margin-top: 30%;
-    }
+    }*/
 }
 
     /*510PX*/
@@ -848,7 +848,7 @@ label.form_label {
     }
             /*CONTACTO*/
     .contenedor_formulario {
-        margin-top: 35%;
+        bottom: 20%;
     }
             /*INDEX*/
     .contenedor_tiendas {
@@ -985,9 +985,9 @@ label.form_label {
     }
     
         /*CONTACTO*/
-    .contenedor_formulario {
+    /*.contenedor_formulario {
         margin-top: 45%;
-    }
+    }*/
         /*REDES*/
     .contenedor_redes {
         padding-top: 120px;
@@ -1008,9 +1008,9 @@ label.form_label {
  @media (max-width: 320px) {
     
         /*CONTACTO*/
-    .contenedor_formulario {
+    /*.contenedor_formulario {
         margin-top: 55%;
-    }
+    }*/
         /*TIENDA PC*/
     .juegos_pc {
         grid-template-columns: repeat(4, 60px);
