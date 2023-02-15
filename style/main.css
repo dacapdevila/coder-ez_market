@@ -39,11 +39,6 @@ dl, ol, ul {
     margin-bottom: 0;
     padding-left: 0;
 }
-.footer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: black;
-}
 /*---------------------------*/
 
 nav {
@@ -141,6 +136,9 @@ nav {
     align-items: center;
     justify-content: center;
     z-index: 99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 /*MAIN*/
