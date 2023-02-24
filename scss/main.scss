@@ -1,0 +1,43 @@
+//TIPOGRAFIAS//
+@import "tipografia/fuentes";
+//GENERAL//
+@import "general/body";
+@import "general/fondo";
+//BARRA NAVEGACION//
+@import "nav/editbootscontacto";
+@import "nav/navbarra";
+//FOOTER//
+@import "footer/footer";
+//PAGINA PRINCIPAL//
+@import "principal/contenedor";
+@import "principal/botonpc";
+@import "principal/botonplay";
+//TIENDAS//
+@import "tiendas_general/juegos";
+@import "tiendas_general/zooms";
+@import "tiendas_general/agregarcarroIMGC";
+@import "tiendas_general/agregarcarroIMGL";
+@import "tiendas_general/agregarcarroIMGCL";
+    //TIENDA DE PC//
+@import "tienda_pc/juegospc";
+@import "tienda_pc/titulopc";
+@import "tienda_pc/gridspc";
+    //TIENDA DE PLAY//
+@import "tienda_play/juegosplay";
+@import "tienda_play/tituloplay";
+@import "tienda_play/gridsplay";
+//PAGINA DE REDES//
+@import "redes/contenedorredes";
+@import "redes/facebook";
+@import "redes/instagram";
+@import "redes/youtube";
+@import "redes/zoomredes";
+//PAGINA DE CONTACTO//
+@import "contacto/formulariocontacto";
+//RESPONSIVE//
+@import "responsive/tablet";
+@import "responsive/550px";
+@import "responsive/510px";
+@import "responsive/mobileL";
+@import "responsive/mobileM";
+@import "responsive/mobileS";

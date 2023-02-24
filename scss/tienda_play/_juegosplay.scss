@@ -1,0 +1,11 @@
+.juegos_play {
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    grid-gap: 15px;
+    margin: 1,5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding-bottom: 150px;
+}

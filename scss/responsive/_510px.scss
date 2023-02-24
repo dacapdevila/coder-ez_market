@@ -1,0 +1,9 @@
+    /*510PX*/
+@media (max-width:510px) {
+    .juegos_pc {
+        grid-template-columns: repeat(4, 95px);
+    }
+    .juegos_play {
+        grid-template-columns: repeat(4, 95px);  
+    }
+}

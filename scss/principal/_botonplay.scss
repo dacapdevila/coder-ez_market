@@ -1,0 +1,13 @@
+.boton_play {
+    background-image: url(../imagenes/boton_play2.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    transition-property: background-color, transform;
+    &:hover {
+        transform: scale(1.1);
+        background-color: #013c79;
+    }
+}

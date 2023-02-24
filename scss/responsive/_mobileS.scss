@@ -1,0 +1,16 @@
+    /*MOBILE S*/
+ @media (max-width: 320px) {
+    
+        /*CONTACTO*/
+    /*.contenedor_formulario {
+        margin-top: 55%;
+    }*/
+        /*TIENDA PC*/
+    .juegos_pc {
+        grid-template-columns: repeat(4, 60px);
+    }
+        /*TIENDA PLAY*/
+    .juegos_play {
+        grid-template-columns: repeat(4, 60px);
+    }
+ }

@@ -1,0 +1,22 @@
+    /*550PX*/
+@media (max-width:550px) {
+    .contenedor_redes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 110px);
+        padding-top: 110px;
+    }
+    .zoom_redes:hover > .fb .capafb h3 {
+        margin-top: 10%;
+    }
+    .zoom_redes:hover > .ig .capafb h3 {
+        margin-top: 10%;
+    }
+    .zoom_redes:hover > .yt .capafb h3 {
+        margin-top: 10%;
+    }
+
+        /*CONTACTO*/
+    /*.contenedor_formulario {
+        margin-top: 30%;
+    }*/
+}

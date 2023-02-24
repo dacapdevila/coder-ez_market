@@ -1,0 +1,13 @@
+.boton_pc {
+    background-image: url(../imagenes/boton_pc2.png);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    transition-property: background-color, transform;
+    &:hover {
+        transform: scale(1.1);
+        background-color: #013c79;
+    }
+}
